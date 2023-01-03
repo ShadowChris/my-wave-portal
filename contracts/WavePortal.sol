@@ -34,9 +34,9 @@ contract WavePortal {
         console.log("Sender %s waved %d times", msg.sender, countMap[msg.sender]);
         return countMap[msg.sender];
     }
-    // 获取最大调用次数的地址数组
-    function getMaxWaveAddress() public view returns (address[] res) {
+    // // 获取最大调用次数的地址数组
+    // function getMaxWaveAddress() public view returns (address[] res) {
         
-    }
+    // }
 
 }
